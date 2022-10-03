@@ -1,0 +1,20 @@
+.contact {
+  display: flex;
+  flex-direction: row;
+  padding: 90px 0px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  &__input {
+    input {
+      max-width: 530px;
+
+      width: 100%;
+      background: #eeeeee;
+      border: 1px solid #000000;
+      border-radius: 5px;
+    }
+    * {
+      margin-bottom: 15px;
+    }
+  }
+}

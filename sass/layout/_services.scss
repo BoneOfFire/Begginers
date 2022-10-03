@@ -1,0 +1,74 @@
+.services {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  ol {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    margin: 45px 0px;
+    padding: 0px;
+  }
+  a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 125%;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    /* identical to box height, or 19px */
+
+    text-align: center;
+
+    /* Color/Dark/100 */
+
+    color: #212529;
+  }
+  &__plan {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 45px 30px;
+  }
+  &__text {
+    h6 {
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 125%;
+    }
+    span {
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 125%;
+      /* identical to box height, or 50px */
+
+      color: #000000;
+    }
+    h3 {
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 125%;
+      /* identical to box height, or 19px */
+
+      /* Color/Dark/50 */
+
+      color: rgba(33, 37, 41, 0.5);
+    }
+    p {
+      padding: 0px 30px;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 125%;
+      /* or 19px */
+
+      text-align: center;
+
+      /* Color/Dark/50 */
+
+      color: rgba(33, 37, 41, 0.5);
+    }
+  }
+}

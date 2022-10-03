@@ -1,0 +1,42 @@
+.team {
+  margin-bottom: 25px;
+  &__person {
+    padding: 20px 25px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    max-width: 230px;
+    width: 100%;
+  }
+  .row {
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  &__text {
+    margin-bottom: 50px;
+    h6 {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 125%;
+      text-align: center;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      color: #74c69d;
+    }
+    h3 {
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 125%;
+      text-align: center;
+      color: #000000;
+    }
+    p {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 125%;
+      text-align: center;
+    }
+  }
+}

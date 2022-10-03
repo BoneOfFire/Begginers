@@ -1,0 +1,20 @@
+.btn {
+  padding: 10px 50px;
+
+  border: none;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+
+  border-radius: 2px;
+}
+.btn--ghost {
+  background: white;
+  color: black;
+}
+.btn--main {
+  background-color: #212529;
+  color: white;
+}

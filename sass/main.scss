@@ -9,13 +9,23 @@
 
 //abstracts
 @import "abstracts/mixins";
-
 //base
 @import "base/base";
-@import "base/typography";
-
 //components
+@import "components/container";
+@import "components/btn";
+@import "components/nav";
+@import "components/tittle";
 //layout
+@import "layout/main-page";
+@import "layout/partners";
+@import "layout/expertise";
+@import "layout/team";
+@import "layout/footer";
+@import "layout/portfolio";
+@import "layout/services";
+@import "layout/contact";
+
 //pages
 //themes
 //vendors

@@ -1,0 +1,33 @@
+.nav {
+  padding: 25px 0px;
+  background-color: #74c69d;
+  color: white;
+  .row {
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+
+    * {
+      max-width: max-content;
+      margin-bottom: 0px;
+      font-size: 20px;
+      font-weight: 800;
+    }
+  }
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  * {
+    margin: 0px 15px;
+  }
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  img {
+    margin-right: 10px;
+  }
+}
